@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple Pasta Recipe</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      background: #ffffff;
+      width: 100%;
+      max-width: 650px;
+      padding: 25px 30px;
+      border-radius: 12px;
+      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #777;
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      color: #444;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+      line-height: 1.6;
+      color: #555;
+    }
+
+    button {
+      display: block;
+      width: 100%;
+      margin-top: 20px;
+      padding: 12px;
+      font-size: 16px;
+      font-weight: bold;
+      background: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    button:hover {
+      background: #43a047;
+      transform: translateY(-2px);
+    }
+
+    #instructions {
+      display: none;
+      margin-top: 20px;
+      animation: fadeIn 0.4s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-5px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>🍝 Simple Pasta Recipe</h1>
+    <p class="subtitle">Quick, easy, and delicious</p>
+
+    <img src="https://jillhough.com/wp-content/uploads/2025/01/Pasta-Puttanesca-with-Shrimp-2.jpg" alt="Pasta Dish">
+
+    <h2>Ingredients</h2>
+    <ul>
+      <li>Pasta</li>
+      <li>Olive oil</li>
+      <li>Garlic</li>
+      <li>Tomato sauce</li>
+      <li>Salt</li>
+    </
